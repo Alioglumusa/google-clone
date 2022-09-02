@@ -1,2 +1,2 @@
 # -google-
-Google clone
+https://alioglumusa.github.io/-google-/
