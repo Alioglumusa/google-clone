@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,  sans-serif;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.header-left {
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.header-right {
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+}
+
+.header-right li {
+    list-style: none;
+    display: inline;
+}
+
+.header-left li {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    font-size: 16px;
+    margin: 10px;
+}
+
+ul {
+    padding: 13px;
+}
+
+.appicon {
+    position: relative;
+    top: 9px;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Sing-In {
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    font-weight: bolder;   
+}
+
+.Sing-In:hover{
+    cursor: pointer;
+}
+
+.searchbar {
+    width: 583px;
+    height: 44px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: 28px auto;
+}
+
+.google-logo {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 109px auto 0;
+}
+
+.arama-cubugu, .keyboard, .mic {
+    width: 25px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.arama-cubugu {
+    margin-left: 2px;
+}
+
+.keyboard {
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.mic {
+    width: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#search {
+    height: 33px;
+    width: 460px;
+    margin-left: 3px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: -8px;
+}
+
+.btn-container {
+    text-align: center;
+    display: block;
+}
+
+.btn-1:hover,.btn-2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.btn-1 {
+    height: 36px;
+    min-width: 120px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+}
+
+.btn-2 {
+    height: 36px;
+    min-width: 120px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+}
+
+#langues {
+    text-align: center;
+    margin-top: 32px;
+    font-size: small;
+}
+
+#langues a {
+    color: #1967d2;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+#country {
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 30px;
+    color: #5f6368;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+.footer-left {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.footer-right  {
+    float: right;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+footer a {
+    font-size: 13px;
+}
